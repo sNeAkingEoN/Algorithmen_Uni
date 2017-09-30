@@ -59,7 +59,7 @@ definieren: JUMP
 '''
 # jetzt wird das ausgecodet:
 
-def build_str_left_first(matrix, eins, zwei): # eins und zwei sind strings oder Arrays, müsste egel sein. wwwwoow.
+def build_str_left_first(matrix, eins, zwei): # eins und zwei sind strings oder Arrays, müsste egal sein. wwwwoow.
     i = len(matrix) - 1
     print("i:", i)
     j = len(matrix[i]) - 1
@@ -88,6 +88,7 @@ def build_str_left_first(matrix, eins, zwei): # eins und zwei sind strings oder 
 
 
 def main(str1, str2):
+    str1, str2 = str1.lower(), str2.lower() # gucken, ob das so funktioniert!
     eins = list(str1)
     zwei = list(str2)
     matrix = [[0]*(len(zwei)+1) for x in range(0,len(eins)+1)]
