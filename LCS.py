@@ -2,10 +2,6 @@ import sys
 
 eins_str = sys.argv[1]
 zwei_str = sys.argv[2]
-#eins = list(eins_str) # vgl. main-Methode
-#zwei = list(zwei_str)
-#eins_laen = len(eins) # noch nie benutzt
-#zwei_laen = len(zwei)
 #erzeuge Matrix:
 #matr = [[0]*(len(zwei)+1) for x in range(0,len(eins)+1)]
 # Achtung! Die Matrix baut es andersrum auf als ich gemacht hätte,
