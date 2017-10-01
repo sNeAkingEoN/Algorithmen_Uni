@@ -1,0 +1,12 @@
+# Python-specific:
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# etc.
+
+# specific to this repo 
+# because I'm trying to figure out git
+private.txt
+~
